@@ -383,7 +383,7 @@ hr {
 		top: 0px;
 		right:0;
 		width:60%;
-		height: 100vh;
+		height: 50vh;
 		display:flex;
 		flex-direction: column;
 		align-items: center;
@@ -396,6 +396,7 @@ hr {
 	.hamburger{
 		position:absolute;
 		top: 17px;
+		right: 5%;
 		display: block;
 		cursor:pointer;
 		z-index: 5;
