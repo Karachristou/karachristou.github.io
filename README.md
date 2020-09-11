@@ -1,7 +1,7 @@
 ## Welcome to my e-portfolio.
 
 I am Panayiotis Karachistou and this is my porfolio.
-Please find below the information of the template i am using to create this portfolio.
+Please find below the information of the template that I am using to create this portfolio.
 
 ## Author
 
