@@ -379,7 +379,7 @@ hr {
 		opacity: 1;
 	}	 
 	.nav-bar{
-		position:absolute;
+		position:fixed;
 		top: 0px;
 		right:0;
 		width:60%;
@@ -396,7 +396,6 @@ hr {
 	.hamburger{
 		position:absolute;
 		top: 17px;
-		right: 25%;
 		display: block;
 		cursor:pointer;
 		z-index: 5;
