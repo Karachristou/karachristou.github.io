@@ -319,7 +319,7 @@ hr {
 	width: 30px;
 	height: 3px;
 	background: #dbdbdb;
-	margin: 5px;
+	margin: 0px;
 	transition:all 0.3s ease;
 }
 
