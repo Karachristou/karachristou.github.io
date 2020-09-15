@@ -110,6 +110,7 @@ a.nav-link{
 
 .just{
 	align-items: center;
+	width: auto;
 	max-width: 800px;
   margin: auto;
 	font-size:1.2rem;
@@ -309,9 +310,11 @@ align-items: center;
 
 .card{
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 	margin: 20px;
-	width: 80%;
+	width: 100%;
 	height:auto;
 	border-radius:12px;
   background:var(--main-decor-color);
@@ -332,15 +335,6 @@ align-items: center;
 	cursor: pointer;
 }
 
-
-.card .work-title{
-	text-align: center;
-	padding: 10px 5px;
-	font-size: 1rem;
-	color: var(--main-fonts-color);
-	font-family: var(--main-font-family);
-	cursor: pointer;
-}
 
 .card a{
 	text-decoration: none;
@@ -367,7 +361,8 @@ align-items: center;
 #home{
 	padding-top: 50px;
 	margin: auto;
-	height: 100vh;
+	height: auto;
+	width: auto;
 	color: var(--main-fonts-color);
 	display: flex;
 	flex-direction: column;
@@ -603,11 +598,15 @@ hr {
 
 	#home, #projects, #contact, #education, #workexp, #cv{
         overflow-x: hidden;
+				padding: 10px;
+				padding-top: 110px;
 	}
 
-	.listing{
-				height: auto;
-		}
+	h3{
+		font-size: 40px;
+		width: auto;
+	}
+
 
 	header{
 		background-color: var(--main-header-background);
