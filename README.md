@@ -1,14 +1,13 @@
 ## Welcome to my e-portfolio.
 
 I am Panayiotis Karachistou and this is my porfolio.
-Please find below the information of the template that I am using to create this portfolio.
+Please feel free to use my version of this portfolio and make it your own.
 
-## Author
 
-- **Achal Jhawar** - [https://github.com/achaljhawar](https://github.com/achaljhawar)
+This is the template that I have modified to create this portfolio. 
+https://github.com/achaljhawar/DevFolio
 
 ## License 📄
-
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details
 
 
