@@ -105,7 +105,7 @@ a.nav-link{
     color: var(--main-fonts-color);
 	z-index: 1;
 	margin: auto;
-	padding: 20px;
+	/* padding: 20px; */
 }
 
 .just{
@@ -163,6 +163,7 @@ h1{
 .social-media{
 	padding: 10px;
 	display: flex;
+	flex-wrap: wrap;
 	position: center;
   align-items: space-around;
 	justify-content:center;
@@ -184,16 +185,6 @@ h1{
 	color: var(--main-decor-color);
 	text-shadow: 0 0 50px var(--main-decor-color);
 }
-
-
-/*
-.avatar {
-justify-content:center;
-align-items: center;
-  width: 100px;
-  height: 100px;
-} */
-
 
 
 /*──────────────────
@@ -288,6 +279,7 @@ align-items: center;
   width: 250px;
   height: 250px;
   border-radius: 50%;
+	margin-bottom: 30px;
 }
 
 
@@ -596,15 +588,71 @@ hr {
 
 @media only screen and (max-width: 870px) {
 
+
+
 	#home, #projects, #contact, #education, #workexp, #cv{
         overflow-x: hidden;
 				padding: 10px;
 				padding-top: 110px;
+				align-items: center;
+				justify-content: center;
 	}
 
+
+	.avatar {
+	  width: 40%;
+		height: 40%;
+	}
+
+	.intro{
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.just{
+		width: 100%;
+		text-align: center;
+	}
+
+	.intro  p{
+		text-align: center;
+	}
+
+
+	.social-media a i{
+		position:inherit;
+	}
+
+
+
+
+
 	h3{
-		font-size: 40px;
+		font-size: 30px;
 		width: auto;
+	}
+
+	h2{
+		font-size: 18px;
+		width: auto;
+	}
+
+	h1{
+		font-size: 13px;
+		width: auto;
+	}
+
+	.listing img{
+		width: 50px;
+	  position: absolute;
+	  top: 45px;
+	  left: 100%;
+	  transform: translate(-120%, -50%);
+	}
+
+	.listing .work-content{
+		padding-right: 50px;
 	}
 
 
