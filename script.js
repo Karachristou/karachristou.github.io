@@ -12,11 +12,12 @@ window.addEventListener('scroll', event => {
 
   navigationLinks.forEach(link => {
     let section = document.querySelector(link.hash);
-
-    if (
-      section.offsetTop <= fromTop &&
-      section.offsetTop + section.offsetHeight > fromTop
-    ) {
+    let sectionTop = section.offsetTop;
+    let sectionHeight = section.clientHeight;
+    console.log(sectionHeight, link.hash);
+    if 
+      (window.scrollY >= sectionTop - sectionHeight / 2.5 && sectionTop + sectionHeight - 200 > fromTop)
+    {
       link.classList.add('active');
     } else {
       link.classList.remove('active');
@@ -25,17 +26,6 @@ window.addEventListener('scroll', event => {
 });
 
 
-
-$(window).on('scroll', function(){
-	if($(window).scrollTop()){
-      $('header').addClass('nav-show');
-
-	}
-	else{
-		$('header').removeClass('nav-show');
-	}
-
-})
 
 //hamburger
 const navSlide = () => {
