@@ -113,9 +113,9 @@ home
 .intro {
 	text-align: center;
 	color: var(--main-fonts-color);
-	z-index: 1;
 	margin: auto;
 	margin-top: 0px;
+	width: auto;
 }
 
 .just {
@@ -210,6 +210,7 @@ other
 	height: 250px;
 	border-radius: 50%;
 	margin-bottom: 30px;
+	z-index: -100;
 }
 
 .work {
@@ -520,9 +521,11 @@ hamburger
 /* ──────────────────
 media queries
 ────────────────── */
+
 @media only screen and (max-height: 850px) {
-	.setWidth, .setPosition {
-		padding-top: 80px;
+	.divider{
+		height: 90px;
+		z-index: -100; 
 	}
 }
 
