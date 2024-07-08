@@ -293,7 +293,15 @@ Listing
 	display: block;
 }
 
-.listing img {
+.work-img {
+	width: 100px;
+	position: absolute;
+	top: 80px;
+	left: 100%;
+	transform: translate(-120%, -50%);
+}
+
+.edu-img {
 	width: 100px;
 	position: absolute;
 	top: 50%;
@@ -302,7 +310,7 @@ Listing
 }
 
 .listing .work-content {
-	vertical-align: middle;
+	vertical-align: top;
 	text-align: left;
 	padding: 10px 10px;
 	padding-right: 130px;
@@ -600,7 +608,7 @@ media queries
 		width: auto;
 	}
 
-	.listing img {
+	.work-img, .edu-img {
 		width: 50px;
 		position: absolute;
 		top: 45px;
