@@ -247,7 +247,7 @@ Card
 	background: var(--main-decor-color);
 }
 
-.card .work-content {
+.card .content-pill {
 	text-align: justify;
 	padding: 20px 20px;
 	font-size: 1rem;
@@ -260,7 +260,7 @@ Card
 	text-decoration: none;
 }
 
-.card .work-content:hover {
+.card .content-pill:hover {
 	color: var(--main-fonts-color);
 }
 
@@ -301,6 +301,12 @@ Listing
 	transform: translate(-120%, -50%);
 }
 
+.publication-subtitle {
+	text-decoration: underline;
+	font-size: 15px;
+	padding-top: 15px;
+}
+
 .edu-img {
 	width: 100px;
 	position: absolute;
@@ -309,7 +315,7 @@ Listing
 	transform: translate(-120%, -50%);
 }
 
-.listing .work-content {
+.listing .content-pill {
 	vertical-align: top;
 	text-align: left;
 	padding: 10px 10px;
@@ -332,7 +338,7 @@ Listing
 	text-decoration: none;
 }
 
-.listing .work-content:hover {
+.listing .content-pill:hover {
 	color: white;
 }
 
@@ -439,8 +445,8 @@ Contact
 
 #publications p {
 	font-family: var(--main-font-family);
-	font-size: 1.2rem;
-	padding: 10px;
+	font-size: 15px;
+	padding-top: 5px;
 }
 
 #education {
@@ -616,7 +622,7 @@ media queries
 		transform: translate(-120%, -50%);
 	}
 
-	.listing .work-content {
+	.listing .content-pill {
 		padding-right: 50px;
 	}
 
